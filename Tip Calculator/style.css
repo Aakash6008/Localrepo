@@ -7,7 +7,13 @@ body{
     flex-wrap: wrap;
     background-color: rgb(0, 0, 0);
     align-content: space-around;
-    padding: 30vh;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
 }
 
 #heading{
