@@ -55,3 +55,13 @@ function makeSound(key) {
        break;
 }
 }
+
+function buttonAnimation(currentValue){
+    let active = document.querySelector("." + currentValue)
+    
+    active.classList.add('pressed');
+
+    setTimeout(function(){
+        active.classList.remove('pressed');
+    }, 100)
+}
